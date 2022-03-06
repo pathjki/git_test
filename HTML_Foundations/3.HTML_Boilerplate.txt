@@ -1,0 +1,25 @@
+<-- 3. HTML Boilerplate lesson notes -->
+
+L.O
+    How to write the basic boilerplate for an HTML document
+    How to open HTML documents in your browser
+
+Creating an HTML File
+Always name the HTML file that contains the homoepage of our website as:
+    index.HTML
+Web servers will by dafulat look for an index.html page
+
+The DOCTYPE
+    Start HTML Page with doctype declaration
+    Doctype = tells the browser what version of HTML it should use
+    Doctype for HTML5 = <!DOCTYPE html>
+
+HTML Element
+After doctype declaration, provide an <html> element A.K.A "root element"
+    Root element of the document means that every other element in the document will be a descendant of it.
+
+Lang attribute
+    lang specifies the language of the text in that element
+    primarily used for improving accessibility of the webpage, allows assistive techs to adapt according to the language.
+
+Head Element
