@@ -1,0 +1,11 @@
+Knowledge Check
+HTML = Hypertext Markup Language
+CSS = Cascading Style Script
+
+Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?
+    Use HTML for putting paragraphs of text on a webpage. Display information = HTML
+
+Between HTML and CSS, which would you use for changing the font and 
+background color of a button?
+    CSS because it's used to style (give color, change font, etc...)
+
