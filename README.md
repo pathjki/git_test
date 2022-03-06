@@ -1,5 +1,2 @@
 # git_test
-Github repo review
-Hello Odin
-Another change
-and another one
+My The Odin Project Repository
