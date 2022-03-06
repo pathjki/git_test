@@ -1,0 +1,31 @@
+<-- 2. Elements And Tags Notes -->
+Learning Outcomes
+    Explain what HTML Tags are
+    Explain what HTML elements are
+
+Almost all elements on HTML page are content wrapped in opening and closing HTML Tags
+
+Opening tags tell browser that this is the start of an HTML element
+Ex. <p> is paragraph tags
+
+Closing tags tell the browser where an elements ends, almost the same but have a "/" before the keyword
+Ex. </p>
+
+Ex. <p>some text context</p>
+
+elements = containers for content
+tags = communicates swhat content the element contains.
+
+Some HTML elements do not have a closing tag = empty elements (they don't wrap any content)
+
+using correct elements for content = "semantic HTML"
+
+
+Knowledge Check
+What is an HTML tag?
+    HTML tag surround and element in <keyword> and </keyword> to explain what kind of content the elements contains
+
+What are the 3 parts of an HTML element
+    1. Opening tag ie. <p>
+    2. Content ie. text content blablabla
+    3. Closing tag ie. </p>
