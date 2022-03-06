@@ -1,0 +1,23 @@
+<-- Review of Git commands -->
+    "adding repos from git"
+    git clone 'SSH from repo'
+
+    "pushing or updating the main"
+    git push origin main
+
+    "adding all files to staging area"
+    git add .
+
+    "commiting staging are files to repo"
+    git commit -m "description"
+
+    "check status"
+    git status
+
+    "check log"
+    git log
+
+    "Git syntax"
+    program (git) | action (add/log/status/commit) | destination (.,file name, "message")
+
+    
