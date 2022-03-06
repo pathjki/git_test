@@ -15,11 +15,46 @@ The DOCTYPE
     Doctype for HTML5 = <!DOCTYPE html>
 
 HTML Element
-After doctype declaration, provide an <html> element A.K.A "root element"
+    After doctype declaration, provide an <html> element A.K.A "root element"
     Root element of the document means that every other element in the document will be a descendant of it.
 
 Lang attribute
     lang specifies the language of the text in that element
     primarily used for improving accessibility of the webpage, allows assistive techs to adapt according to the language.
 
-Head Element
+Head Element <head>
+    <head> element = where we put important meta-information ABOUT webpage
+    <head> should NOT use any elements that display content on the page
+
+    The Charset Meta Element <meta charset="utf-8">
+        always have the meta tag for the charset encoding in in head element
+        setting the encoding is important, it ensures that the webpage will display special symbols from diff. languages correctly.
+    Title Element <title>My First Webpage</title> 
+        Another element to always include in the head of an HTML doc.
+        <title> is used to give a human-readable title displayed on the page's browser tab
+        no <title>, the webpage title would default to file name ie. index.html
+
+Body Element <body>
+    where all content diplayed to user will go (text, images, lists, links, etc...)
+
+Viewing HTML Files in the browser
+    1. drag/drop HTML file into address bar
+    2. Double click in file system
+    3. Terminal, navigate to directory and use 'google-chrome index.html'
+
+VSCode Shortcut "!" on file with .html extension
+
+HTML Validators https://validator.w3.org/
+
+K.C
+    What is the purpose of the doctype declaration?
+        DOCTYPE tells the browser what version of HTML it should use to render the document
+    
+    What is the HTML element?
+        HTML element is the root element meaning every other element in the document will be a descendent of it.
+    
+    What is the purpose of the head element?
+        Head element diplays important meta information about the webpage, should not have any elements that displays content on the webpage
+
+    What is the purpose of the body element?
+        Body element is where everything that is displayed to the user goes.
