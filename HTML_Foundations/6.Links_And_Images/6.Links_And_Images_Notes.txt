@@ -1,0 +1,51 @@
+Introduction
+  Links allow us to link to other HTML pages on the web.
+
+Anchor Elements <a></a>
+  Use Anchor Elements<a> to create a link in HTML
+
+  HTML Attributes
+    clickin an <a> link doesn't do anything until we give it a destination to go to using
+    the HTML attribute
+      HTML attributes give additonal information to an HTML element and always goes in the opening tag
+      An attribute is made up of 2 parts: A name and a value.
+      <a href=""> adds a href(Hyperlink Reference) attribute to the opening tag.
+  You can use anchor tags to link any other kind of resources on the internet
+  (videos, .pdf,images,etc...)
+
+Absolute and Relative Links
+  Absolute Links
+    Links to pages on other websites on the internet.
+    Made up of following parts:
+      protocol://domain/path
+    Absolute links will always contain the protocol and domain of the destination.
+  Relative Links
+    Links to other pages within our own website.
+    does not include the domain name since it links to a page on the same site
+    it assumes the domain name will be the same as the page we created the link
+    Relative links only include the file path to the other page, relative to the page you are creating the link on.
+
+./
+  prepending "./" before yourl inks will prevent most issues related to pathing issues.
+  by adding "./", you are specifying to your code taht it shoul start looking for the file/dir relative to the CURRENT dir.
+
+Images <img>
+  <img> element is empty (no closing tag)
+  <img> embeds an image into the page using a "src" attribute.
+  src works like href attribute for anchor tags.
+  it can embed an image using both Absolute and Relative paths.
+  Absolute path for an image example
+    <img src="https://www.theodinproject.com/mstile 310x310.png>
+  Relative path for img
+    <img src="images/dog.jpg">
+
+Alt (alternative text) Attributes
+  Alt attribute is used to describe an image
+  Used in place of the image if it can't load
+  Also used with screen readers to describe the image for the visually impaired
+  ie.
+  <img src="https://www.theodinproject.com/mstile 310x310.png" alt="The Odin Project Logo">
+
+Parent Directories
+  us "../" in relative filepath to go to the parent directory.
+  

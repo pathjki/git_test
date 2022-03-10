@@ -1,0 +1,16 @@
+Unordered Lists <ul> , <li>
+  <ul> is used to create unordered lists and 
+  <li> is used to create each item in the list.
+  Each item in the list begins with a bullet point
+  ie.
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+Ordered Lists <ol>, <li>
+  <ol> is used to create the ordered list and
+  <li> is used to list the item elements
+  However, in ordered lists<ol>, each item<li> begins with a number
+  

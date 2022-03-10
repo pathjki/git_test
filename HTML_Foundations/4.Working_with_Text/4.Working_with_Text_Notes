@@ -1,0 +1,31 @@
+Paragraphs <p>
+    Paragraph element is defined by wrapping context with <p> </p>
+
+Headings <h1></h1> - <h6></h6>
+    Displayed larger and bolder to signify that they are Headings
+    6 different levels <h1> most importants and largest, <h6> least important and smallest Heading
+
+Strong Elements <strong> </strong>
+    makes text bold and semantically marks text as important
+    when using screen reader, <strong> will change to voice to communicate the importance of text
+    can be used separately ie. <strong>This is an example</strong>
+    or in combination with other elements ie. <p>This is an <strong>example</strong></p>
+
+Em(emphasis) Element <em></em>
+    Em italicizes the text
+    can be used just like <strong> by itself or in combination with other elements
+
+Nesting and Indentation
+    nesting elements create a parent child relationship, nested elements are the children
+    Siblings: elements at the same level
+    Indentations are used to make the level of nesting clear and readable.
+    Indent child elements by 2 spaces(?)
+
+HTML Comments <!-- Example -->
+    HTML Comments are not visible on the browser
+    allows us to leave comments in our code for other devs. to read
+
+Extra notes
+    <b> and <i> are avoided because they only affect the text visually but does not give meaning to the context.
+    <strong> and <em> affect the way screen readers emphasize the context
+    
