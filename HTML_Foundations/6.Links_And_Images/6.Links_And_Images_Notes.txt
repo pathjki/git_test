@@ -49,3 +49,27 @@ Alt (alternative text) Attributes
 Parent Directories
   us "../" in relative filepath to go to the parent directory.
   
+Image Formats
+  jpg (photos)
+    Designed for handling of large color palettes without increasing file size excessively
+    Good for photos and images with lots of gradients
+    Don't allow for transparent pixels
+  
+  GIF (animations)
+    simple animations, but limited color palette
+    Transparent pixels are binary (on or off) meaning no semi-opaque pixels
+
+  png (diagrams and icons)
+    Good for things not a photo or animated
+    Larger than equivalent JPG file
+    Deal with opacity just fine
+    Good fit for icons, diagrams, logos, etc...
+  
+  SVG (use them if filesize is not a concern and images needs to be scaled)
+    Not pixel-based image, but Vector-based graphic, meaning can be scaled to any dimension without loss of quality
+    Potential issue: for consistent display across browsers, any text fields need to be converted to outlines using image editor
+    Having a lot of text in the image can impact file size and thus PNG might be better option. 
+
+Dimensions <img src='example.png' width='#' height='#'>
+  sets explicit dimensions for images
+  better to set image dimensions with CSS
